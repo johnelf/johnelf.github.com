@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于持续集成环境的思考"
-category: "技术"
+category: Technical
 tags: ["持续集成"]
 ---
 
