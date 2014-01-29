@@ -3,14 +3,14 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
-title : jwzhang's blog
+title : 码农的自我修养
 url: http://johnelf.com
 tagline: Site Tagline
 author :
   name : Jinwen Zhang
   email : jwzhang@thoughtworks.com
   github : johnelf
-  weibo : jwzhang
+  weibo : jwzhang1016
   feedburner : jwzhang
 
 production_url : http://username.github.io
