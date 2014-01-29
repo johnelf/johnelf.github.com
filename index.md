@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 谁画下这天地，又画下我和你
+title: 码农的自我修养
 tagline: jwzhang blog
 ---
 
