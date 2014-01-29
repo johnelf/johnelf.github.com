@@ -2,8 +2,9 @@
 layout: post
 title: "Continuous Integration"
 description: ""
-category: "cjdoaifjdsoifjaosdfsao;"
-tags: ["fdasfdsafasfds"]
+category: ""
+tags: []
+content: fjdoifjosaifjoaijfosaijfoasidfjaois
 ---
 
 {% include JB/setup %}
