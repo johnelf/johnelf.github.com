@@ -4,8 +4,6 @@ title: "Continuous Integration"
 description: ""
 category: 
 tags: []
----
-
 ## CI为何物
 
     持续集成(以下简称CI)是当代码提交后，系统自动更新到最新代码并执行预先写好的测试，从而验证功能的正确性的一个过程。
@@ -40,5 +38,6 @@ pipeline是主从式(master/slave)分布，挂在jenkins服务器上，先由mas
 
     以上建议可以逐步实现，先将测试并发，在建立好的依赖管理，将micro service全部启动在CI本地，再删除没有必要的测试，最后添加只能CI逻辑。这样相信
 在等build时也许会少些痛苦。
+---
 
 {% include JB/setup %}
