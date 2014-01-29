@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "new post"
+title: "关于持续集成环境的思考"
+category: "技术"
+tags: ["持续集成"]
 ---
 
 ## CI为何物
