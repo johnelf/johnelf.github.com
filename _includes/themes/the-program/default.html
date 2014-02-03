@@ -9,6 +9,7 @@
 	<title>{{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
+	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
 </head>
 <body>
@@ -21,8 +22,11 @@
 					<ul>
 						<li class="logo"><a href="/">{{ site.title }}</a></li>
 						<li class="archive"><a href="/archive.html">archive</a></li>
+						<li class="page"><a href="/pages.html">pages</a></li>
 						<li class="category"><a href="/categories.html">categories</a></li>
 						<li class="tag"><a href="/tags.html">tags</a></li>
+						<li class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=plusjade&repo=jekyll-bootstrap&type=fork&count=true"
+									allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></li>
 					</ul>
 				</nav>
 			</div><!-- unit-inner -->
@@ -45,20 +49,14 @@
 					<ul>
 						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-						<li class="weibo"><a href="http://weibo.com/{{ site.author.weibo }}/" rel="me">weibo.com/{{ site.author.weibo }}</a></li>
-                        <div class="weiboShow_wrap">
-                            <!-- 创建者 -->
-                            <div class="weiboShow_developer clearfix" id="weibo_head">
-                                <div class="weiboShow_developer_pic"><a href="http://weibo.com/jwzhang1016/profile?rightmod=1&wvr=5&mod=personinfo" target="_blank">
-                                    <img src="http://tp3.sinaimg.cn/2532964250/50/5680877141/1" alt="jwzhang" title="jwzhang"></a></div>
-                                <div class="weiboShow_developer_detail">
-                                    <dl class="weiboShow_developerDetail_name"><dt><a href="http://weibo.com/2532964250?s=6cm7D0" target="_blank" alt="jwzhang" title="jwzhang">飞吧1016</a></dt><dd><span class="weiboShow_developerDetail_namedir">陕西 西安</span></dd></dl>
-                                </div>
-                            </div>
-                            <!-- /创建者 -->
-                        </div>
+						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
+						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
 					</ul>
 				</div><!-- misc -->
+				<p class="licence">
+					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
 			</div><!-- unit-foot-inner -->
 		</div><!-- unit-foot -->
 	</footer>
