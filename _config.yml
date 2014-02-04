@@ -4,7 +4,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
 title : 谁画下这天地，又画下我和你
-url: http://johnelf.com
+url: http://johnelf.github.com
 tagline: Site Tagline
 author :
   name : 张锦文
@@ -13,7 +13,7 @@ author :
   weibo : jwzhang1016
   feedburner : jwzhang
 
-production_url : http://username.github.io
+production_url : http://johnelf.github.io
 auto: true
 
 markdown: rdiscount
