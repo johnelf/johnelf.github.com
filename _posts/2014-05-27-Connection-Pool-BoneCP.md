@@ -16,12 +16,14 @@ tags: ["连接池","超时","资源分配"]
 ## 高性能连接池代表BoneCP
 BoneCP采用actor模型，由于是异步操作，所有结果用Future返回，超时返回，除去了同步等待的时间，效率极高。BoneCP的BenchMark就不贴了，想看的同学可以移步这里：[BoneCP 官网](http://www.jolbox.com/)  
 
+```
   * The tests were run under Linux running in single user mode i.e. apart from the kernel daemons there were no other running processes.  
   * Used the latest, publicly available, stable versions of C3P0/BoneCP/DBCP/etc.  
   * Ran each test 3 times and took averages.  
   * Started off with a dummy connection request to allow for lazy-loading hits, JIT-compiler to kick in, etc.  
   * Gave the same parameters to each pool. Since there are no partitioning options in C3P0/DBCP, allocated (connections / partitionCount) to each partition (i.e. kept the same number of connections). A BoneCP partition count of 1 is thus the equivalent of running C3P0/DBCP.  
   * Called the getConnection/releaseConnection method calls directly (i.e. not obtaining it via spring/hibernate)  
+```
 
 每当向BoneCP申请一个Connection资源时：  
 
